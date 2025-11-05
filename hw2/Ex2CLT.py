@@ -33,10 +33,11 @@ with open('./data/output/MeanVar.txt', 'w') as f:
 
 #a)
 plt.title('means')
-plt.plot(np.repeat(N, k), mean.ravel(), '.')
+plt.boxplot(mean.T, tick_labels=N)
 plt.ylabel(r'$\bar X_n$')
 plt.xlabel(r'n')
 plt.show()
+
 
 #As we can see here, the dispersion of means of X_n 
 #decreases with the increase of n. 
