@@ -96,7 +96,7 @@ with open('output.txt', 'w') as f:
 
 
 print('''
-The CDF for 2020 is shifted to the right -> the number of deaths tends to be higher in 2020.
-Confidence intervals become more stable with the increase of sample sizes.
+The CDF for 2020 is shifted to right -> the number of deaths tends to be higher in 2020.
+CIs vary less with the increase of sample sizes.
 ''')
 
