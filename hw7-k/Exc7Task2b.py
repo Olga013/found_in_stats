@@ -27,7 +27,7 @@ plt.show()
 
 # find the positions where the first derivative intersects the x axis
 # i think the easiest way to do this is to find where the sign flips between successive value of g'
-# i take the first index out of the sign flip arbitrarily 
+# i take the first index out of the sign flip arbitrarily
 zero_crossings_idx = numpy.where(
     numpy.sign(g_prime_vals[:-1]) != numpy.sign(g_prime_vals[1:])
 )[0]
