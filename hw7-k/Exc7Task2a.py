@@ -42,3 +42,4 @@ with open("Exc7Task2a.txt", mode="w") as outfile:
         theta_s_plus_1 = newtons_step(theta_s)
         diff = abs(theta_s - theta_s_plus_1)
         theta_s = theta_s_plus_1
+        iterations += 1
